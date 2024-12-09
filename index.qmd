@@ -121,7 +121,7 @@ emissions_long["year"] =
 emissions_long["emissions"] = pd.to_numeric(emissions_long["emissions"].astype(str).str.replace("−", "-"))
 
 # Query for years between 1990 and 2022 (that is 1990, 1991, ..., 2021, 2022)
-emissions_long = 
+emissions_long_1990_2022 = 
 
 # Query for 5 countries (adjust these to any countries you like)
 emissions_long_subset = 
