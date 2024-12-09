@@ -105,13 +105,13 @@ show(table_df)
 
 Our goal is to create a line chart from 1990 to 2022 for a few selected countries.
 
-1. Melt the data so that years become rows.
+1. Melt the original `emissions` dataset so that years become rows.
 2. Filter from 1990 to 2022 only.
 3. Choose 5 countries of your choice.
 4. Create a line chart showing emissions over time for the selected countries with Plotly Express.
 
 ```{python}
-# Melt the dataset. Your id_vars should be "country", your var_name should be "year" and your value_name should be "emissions".
+# Melt the original `emissions` dataset. Your id_vars should be "country", your var_name should be "year" and your value_name should be "emissions".
 emissions_long = 
 
 # Convert year to numeric using pd.to_numeric
